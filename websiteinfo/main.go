@@ -56,6 +56,7 @@ func getCountryList() {
 	//国家太多不适合选择，手动定义常用的国家
 	var defindCountry CountryInit
 	json.Unmarshal([]byte(`[
+		{"Countries_name":"新加坡（SG）","Iso_code":"SG"},
 		{"Countries_name":"美国（US）","Iso_code":"US"},
 		{"Countries_name":"德国（DE）","Iso_code":"DE"},
 		{"Countries_name":"俄罗斯（RU）","Iso_code":"RU"},
