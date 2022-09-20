@@ -1,4 +1,4 @@
-package main
+qpackage main
 
 import (
 	"crypto/hmac"
@@ -40,7 +40,7 @@ func generate() {
 	signature := base64.StdEncoding.EncodeToString(msg)
 	fmt.Println("nonce：", nonce)
 	fmt.Println("timestamps：", timestamps)
-	fmt.Println("signature：", signature)
+	fmt.Println("clientSignature：", signature)
 	fmt.Println("apiKey：", "yuxuanxuanpc")
 
 	scale := "a"
