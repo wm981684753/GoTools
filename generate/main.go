@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	secret = "yuxuan3507"
+	secret = ""//密钥
 )
 
 func main() {
@@ -41,7 +41,7 @@ func generate() {
 	fmt.Println("nonce：", nonce)
 	fmt.Println("timestamps：", timestamps)
 	fmt.Println("signature：", signature)
-	fmt.Println("apiKey：", "yuxuanxuanpc")
+	fmt.Println("apiKey：", "apikey密钥")
 
 	scale := "a"
 	fmt.Println(`
