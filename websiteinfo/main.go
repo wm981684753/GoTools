@@ -10,8 +10,8 @@ import (
 )
 
 const (
-	secret = "yuxuan3507"
-	url    = "http://test-platform.whgxwl.com/"
+	secret = ""//密匙
+	url    = ""//请求的站点
 )
 
 func main() {
